@@ -11,4 +11,7 @@ the test data when the window moves (instead of adding the models own prediction
 the model then has the freedom to just be corrected whenever it is wrong, 
 predicting 30 days ahead is more interesting I now realised.
 
+KEY INSIGHT!
+Dont try to predict the future price as the model will simply copy the actual data but be delayed, completely useless model which appear proper. Instead try to model the difference in Value from day to day, as that is not given away by previous data in the same way, meaning the model cannot cheat.
+
 
